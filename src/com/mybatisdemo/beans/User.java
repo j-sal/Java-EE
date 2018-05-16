@@ -3,11 +3,11 @@ package com.mybatisdemo.beans;
 public class User {
 	private Integer id;
 	private String username;
-	private String birthdate;	//or int?
+	private String birthdate;	
 	private String address;
 	public User() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public User(String username, String birthdate, String address) {
 		super();
